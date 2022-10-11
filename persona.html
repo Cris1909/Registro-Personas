@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de personas</title>
+    <link href="./persona.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1>Registro de Personas</h1>
+    </header>
+    <div class="caja">
+        <form id="formulario">
+            <div class="form-group">
+                <label for="nombre">Nombre: </label><br>
+                <input type="text" id="nombre" minlength="3" class="form-control" placeholder="Ingresa tu nombre..." required>
+            </div><br>
+            <div>
+                <label for="cedula">Cedula:</label><br>
+                <input type="number" id="cedula" class="form-control" placeholder="Ingresa tu cedula..." required>
+            </div>
+            <div><br>
+                <label for="nacimiento">Fecha de Nacimiento: </label><br>
+                <input type="date" id="nacimiento" class="form-control" placeholder="Ingresa tu nombre..." required>
+            </div><br>
+            <div>
+                <label for="profesion">Profesion: </label><br>
+                <input type="text" id="profesion" class="form-control" placeholder="Ingresa tu profesion..." required>
+            </div><br>
+            <button type="submit" id="submit">Enviar</button>
+            
+        </form>
+    </div>
+    <hr>
+    <div class="personas">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Profesion</th>
+                    <th scope="col">Opcion</th>
+                </tr>
+            </thead>
+            <tbody id="tabla"></tbody>
+        </table>
+    </div>
+
+    <script src="./persona.js"></script>
+</body>
+</html>

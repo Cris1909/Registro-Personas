@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #2b232b;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.caja, .personas{
+    background: #fff;
+    padding: 10px;
+    margin: 10px; 
+}
+
+#submit {
+    background: #fff;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background: #4fb560;
+    color: #fff;
+}
+
+#editar {
+    background: #fff;
+    border: 1px solid #4f84b5;
+    color: #4f84b5;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+
+#editar:hover {
+    background: #4f84b5;
+    color: #fff;
+}
+
+#eliminar {
+    background: #fff;
+    border: 1px solid #d67c7c;
+    color: #d67c7c;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;  
+}
+
+#eliminar:hover {
+    background: #ce6868;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
